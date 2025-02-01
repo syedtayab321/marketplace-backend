@@ -53,6 +53,16 @@ INSTALLED_APPS = [
     'django_filters',        # For filtering API queries
     'storages',              # For managing file storage (AWS, GCP, etc.)
     'drf_yasg',              # API documentation
+
+    # Django Apps
+    'admin_apis',
+    'authentication',
+    'logistics_delivery',
+    'orders',
+    'payment',
+    'product_listings',
+    'profile_management',
+    'search_filters',
 ]
 
 MIDDLEWARE = [
